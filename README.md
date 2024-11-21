@@ -20,6 +20,8 @@ npm
 - Clone the repository to your local machine.
 - Navigate to the project directory: cd ProjectManagementUI
 - Install dependencies: npm install
+- npm install react-router-dom
+- npm install react-datepicker
 - npm install @heroicons/react
 
 ## How to use the website
