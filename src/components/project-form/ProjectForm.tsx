@@ -14,20 +14,20 @@ const ProjectForm: React.FC<ProjectFormProps> = ({ onSubmit }) => {
         event.preventDefault();
 
         if (name && description && startDate) {
-        const newProject: IProject = {
-            name,
-            description,
-            startDate: startDate.toISOString().split('T')[0],
-            status,
-        };
+            const newProject: IProject = {
+                name,
+                description,
+                startDate: startDate.toISOString().split('T')[0],
+                status,
+            };
 
-        onSubmit(newProject);
-        setName('');
-        setDescription('');
-        setStartDate(null);
-        setStatus('Not Started');
+            onSubmit(newProject);
+            setName('');
+            setDescription('');
+            setStartDate(null);
+            setStatus('Not Started');
 
-        navigate('/projects');
+            navigate('/projects');
         }
     };
 
@@ -48,7 +48,6 @@ const ProjectForm: React.FC<ProjectFormProps> = ({ onSubmit }) => {
                     required
                 />
             </div>
-
             <div>
                 <label htmlFor="description" className="block text-sm font-medium text-gray-900">Project Description</label>
                 <textarea
@@ -59,12 +58,10 @@ const ProjectForm: React.FC<ProjectFormProps> = ({ onSubmit }) => {
                     required
                 />
             </div>
-
             <div>
                 <label htmlFor="start-date" className="block text-sm font-medium text-gray-900">Start Date</label>
                 <CustomDatePicker selectedDate={startDate} onChange={setStartDate} required />
             </div>
-
             <div>
                 <label htmlFor="status" className="block text-sm font-medium text-gray-900">Status</label>
                 <select
@@ -77,7 +74,6 @@ const ProjectForm: React.FC<ProjectFormProps> = ({ onSubmit }) => {
                     <option value="Completed">Completed</option>
                 </select>
             </div>
-
             <button
                 type="submit"
                 className="w-full py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
