@@ -16,7 +16,7 @@ const ProjectDetails = ({ projects, onStatusChange }: ProjectDetailsProps) => {
       >
         Back to Form
       </button>
-
+      
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-gray-800">Projects</h1>
       </div>
@@ -30,7 +30,7 @@ const ProjectDetails = ({ projects, onStatusChange }: ProjectDetailsProps) => {
               <h3 className="text-xl font-semibold text-gray-900">{project.name}</h3> 
               <p className="text-gray-800 mt-2">{project.description}</p> 
               <p className="text-gray-700 mt-2">Start Date: {project.startDate}</p> 
-              
+    
               <div className="mt-2">
                 <label className="block text-sm font-medium text-gray-900">Status</label>
                 <select
