@@ -22,6 +22,11 @@ npm
 - Install dependencies: npm install
 - npm install @heroicons/react
 
+## How to use the website
+
+When a user enters the details of a project inside the project form (from Create Project page) and presses the Submit button, they will be redirected to the Projects page where they can view all the projects. If the user clicks "Back to Form", the user will be redirected to the Create Project Form and they can enter the details of another project. Upon submission, both the initial project and the new one will be displayed. Essentially, the user can view all the projects they submit.
+Since the projects (the provided data) are not stored in a database, refreshing the page will cause previously submitted projects to be lost. Therefore, it is crucial for the user to use the "Go to Projects List" and "Back to Form" buttons to navigate between the form and the project details page without refreshing the page.
+
 ## Running the Application
 
 1. Install the necessary packages using:
