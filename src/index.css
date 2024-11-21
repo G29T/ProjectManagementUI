@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .background-custom {
+    background-image: url('./assets/ProjecManagement.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+}
