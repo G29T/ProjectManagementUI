@@ -1,7 +1,8 @@
 # Description
 
 This project is a front-end React TypeScript application designed to create and display project details in a project management platform.
-Users can fill out a form to set up a project by providing essential details such as the project name, description, start date, and status. Once submitted, the application displays the entered project information on a dedicated project details page.
+Users can fill out a form to set up a project by providing essential details such as the project name, description, start date, and status.
+Once submitted, the application displays the entered project information on a dedicated project details page.
 TailwindCSS is used for styling, ensuring a responsive and visually appealing user interface. The project emphasizes clean code, efficient form validation, and a seamless user experience.
 
 ## Technologies Used
