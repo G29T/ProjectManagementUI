@@ -26,7 +26,7 @@ npm
 - npm install react-router-dom
 - npm install react-datepicker
 - npm install @heroicons/react
-- npm install vite --save-dev
+- npm install vite
 
 ## How to use the website
 
